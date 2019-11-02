@@ -14,7 +14,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('mabendev/adminpanel/js/MabenAdminPanel.js') }}" defer></script>
+    <script src="{{ asset('mabendev/adminpanel/js/main.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -22,7 +22,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('mabendev/adminpanel/js/MabenAdminPanel.css') }}" rel="stylesheet">
+    <link href="{{ asset('mabendev/adminpanel/js/main.css') }}" rel="stylesheet">
 </head>
 <body>
 
