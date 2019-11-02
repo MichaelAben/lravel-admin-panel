@@ -1,0 +1,27 @@
+{
+  "name": "maben-dev/laravel-admin-panel",
+  "description": "Home made admin panel for laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Aben",
+      "email": "m.aben@live.nl"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MabenDev\\AdminPanel\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MabenDev\\AdminPanel\\AdminPanelProvider"
+      ]
+    }
+  }
+}
