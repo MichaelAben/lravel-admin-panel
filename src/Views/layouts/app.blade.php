@@ -32,7 +32,9 @@
     <div class="row">
         @yield('menu.side')
         <main role="main" class="col-md-10 ml-md-auto py-3 px-4">
-            @yield('content')
+            <div id="app">
+                @yield('content')
+            </div>
         </main>
     </div>
 </div>
