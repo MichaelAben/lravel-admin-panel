@@ -22,7 +22,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('mabendev/adminpanel/js/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('mabendev/adminpanel/css/main.css') }}" rel="stylesheet">
 </head>
 <body>
 
