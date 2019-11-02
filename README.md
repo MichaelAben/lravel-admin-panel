@@ -8,13 +8,17 @@ Nothing more than a easy to use layout with some menu's.
 
 ### Getting started
 It's realy easy!
-Run this command:\
+
+You need to require it with composer:\
+`composer require maben-dev/laravel-admin-panel`
+
+Than you need to publish the views and assets:\
 `php artisan vendor:publish --provider="MabenDev\AdminPanel\AdminPanelProvider"`
 
 After that you go to the view of your page and let it extend:\
 `@extends('mabendev.adminpanel.layouts.app')`
 
-Your page content goes in between:\
+Your page content goes in between this section:\
 ```
 @section('content')
     // Your content goes here
