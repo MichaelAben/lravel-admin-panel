@@ -1,5 +1,7 @@
 # Admin Panel For Laravel
 
+![Philadelphia's Magic Gardens. This place was so cool!](screenshot.png "")
+
 This is a simple base to start developing your own amazing admin panel in laravel!
 
 Nothing more than a easy to use layout with some menu's.
